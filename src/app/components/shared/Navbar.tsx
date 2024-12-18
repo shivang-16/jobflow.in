@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Grid } from 'lucide-react';
 import Button from './Button';
 import Image from 'next/image';
-import logo from "@/../../jobflow.in/public/logo1-removebg-preview.png"
+import logo from "@/../public/logo1-removebg-preview.png"
 
 export const Navbar = () => {
   return (

@@ -3,9 +3,9 @@ import { cn } from '@/lib/utlis';
 import Image from 'next/image';
 
 interface CornerFolderProps {
-  position: 'top-left' | 'bottom-left' | 'bottom-right';
-  folderSrc: string; 
-  overlaySrc?: string; 
+  position: 'top-left'| 'top-right' | 'bottom-left' | 'bottom-right';
+  folderSrc: any; 
+  overlaySrc?: any; 
   overlayClassName?: string; 
   className?: string;
   Folderclassname?:string;
