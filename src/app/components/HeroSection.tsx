@@ -32,7 +32,7 @@ const HeroSection = () => {
   }
   return (
     <div className="bg-white pt-[80px] px-[50px] pb-[30px] relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-40 relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 md:pb-40 pb-[28%] relative">
         {/* Background Pattern */}
         <div className="absolute inset-0 -mx-4 sm:-mx-6 lg:-mx-8">
           <div className="absolute inset-0 bg-white/90 backdrop-blur-sm rounded-3xl" />
@@ -44,7 +44,7 @@ const HeroSection = () => {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl font-bold tracking-tight text-gray-900"
+            className="md:text-5xl text-4xl font-bold tracking-tight text-gray-900"
           >
             Find & Track Your Dream Job 
           </motion.h1>
@@ -52,7 +52,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-5xl font-bold text-gray-400 mt-2"
+            className="md:text-5xl text-4xl font-bold text-gray-400 mt-2"
           >
            Applications with Ease
           </motion.h2>
