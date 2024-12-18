@@ -14,7 +14,7 @@ interface CornerFolderProps {
 const positionStyles = {
   'top-left': 'rotate-[22deg] top-10 left-[-8%]',
   'bottom-left': 'rotate-[-5deg] bottom-[-20%] left-6',
-  'top-right': 'rotate-[-22deg] top-5 right-[-8%]', 
+  'top-right': 'rotate-[-22deg] md:top-5 right-[-8%] -top-5', 
   'bottom-right': 'rotate-[2deg] -bottom-4 -right-[20%]',
 };
 
