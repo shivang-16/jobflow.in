@@ -20,7 +20,7 @@ const JobSection = () => {
 
   return (
      <>
-           <section className="px-4 sm:px-6 py-16 pt-36 bg-white">
+           <section className="px-4 sm:px-6 pb-16 pt-24 bg-white">
             <div className='mb-12'>
             <h2 className="text-center text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
             Explore Available Jobs
