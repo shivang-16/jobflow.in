@@ -24,7 +24,7 @@ const JobSection = () => {
             Explore Available Jobs
             </h2>
             <p className='text-center text-xs sm:text-sm text-slate-500'>
-                Hello Find Latest Jobs from all job platfrom
+                Find Latest Jobs from all job platfrom
             </p>
             </div>
             

@@ -7,7 +7,7 @@ const TabSection = () => {
 
   return (
     <section className="px-6 py-16 bg-white">
-      <h2 className="text-center text-3xl font-bold text-gray-900 mb-12">
+      <h2 className="text-center text-2xl sm:text-3xl font-bold text-gray-900 mb-12">
         Discover the Features That Make JobFlow So Easy to Use
       </h2>
 
