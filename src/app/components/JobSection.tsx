@@ -1,6 +1,4 @@
 'use client'
-import { getJobData } from '@/actions/data_actions';
-import { renderJobCard } from './shared/jobCard';
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
