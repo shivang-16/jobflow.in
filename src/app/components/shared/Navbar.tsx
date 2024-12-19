@@ -29,8 +29,9 @@ export const Navbar = () => {
 
           <div className="flex items-center space-x-4">
             {/* <Button variant="secondary">Sign in</Button> */}
-            <Button>Join Waitlist</Button>
-          </div>
+            <a href="mailto:hello@jobflow.in" className="text-sm sm:text-lg sm:font-bold text-black bg-white border px-4 py-2 rounded-full hover:opacity-70 cursor-pointer">
+          hello@jobflow.in
+        </a>          </div>
         </div>
       </div>
     </motion.nav>

@@ -47,8 +47,8 @@ function TabSection() {
         <p className="text-xl text-gray-600">
         That Make JobFlow So Easy to Use
         </p>
-      </div>
-
+        </div>
+   
         {/* Tabs */}
         <div className="flex justify-center space-x-8 mb-12">
           {Object.keys(tabs).map((tab) => (
@@ -86,6 +86,7 @@ function TabSection() {
               </div>
             ))}
           </div>
+
 
           {/* Image Placeholder */}
           <div className="bg-gray-100 rounded-lg aspect-video flex items-center justify-center">
