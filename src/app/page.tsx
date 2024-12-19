@@ -2,9 +2,8 @@ import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import JobSection from "./components/JobSection";
 import TabSection from "./components/TabSection";
-
 import { Navbar } from "./components/shared/Navbar";
-import Footer from "./components/Footer";
+import { Footer } from "./components/Footer";
 
 
 const LandingPage = () => {
