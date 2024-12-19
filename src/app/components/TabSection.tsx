@@ -88,7 +88,7 @@ const TabSection = () => {
             <Image
               src={
                 activeTab === 'tracker'
-                  ? '/feature-board.png'
+                  ? '/tracker.png'
                   : '/extension-feature.png'
               }
               alt={activeTab === 'tracker' ? 'Tracker Features' : 'Extension Features'}
