@@ -34,7 +34,7 @@ const HeroSection = () => {
     <div className="bg-white pt-[80px] px-[50px] pb-[30px] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 md:pb-40 pb-[28%] relative">
         {/* Background Pattern */}
-        <div className="absolute inset-0 -mx-4 sm:-mx-6 lg:-mx-8">
+        <div className="absolute inset-0 -mx-8 sm:-mx-6 lg:-mx-8">
           <div className="absolute inset-0 bg-white/90 backdrop-blur-sm rounded-3xl" />
           <BackgroundPattern />
         </div>
@@ -89,7 +89,7 @@ const HeroSection = () => {
         </div>
           </motion.div>
         </div>
-
+iv
         {/* Floating Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           

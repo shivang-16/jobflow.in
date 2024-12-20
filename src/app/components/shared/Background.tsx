@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 const BackgroundPattern = () => {
   return (
-    <div className="absolute rounded-[40px] border border-gray-200 bg-gray-50 inset-0 overflow-hidden">
+    <div className="absolute rounded-2xl sm:rounded-[40px] border border-gray-200 bg-gray-50 inset-0 overflow-hidden">
       <div
         className="absolute z-0 inset-0 opacity-40"
         style={{
