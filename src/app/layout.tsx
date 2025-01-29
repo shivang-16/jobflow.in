@@ -30,8 +30,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* First Google Analytics Account */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-SLF4NJC4QP"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-1J01NR3FBD"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -41,6 +46,7 @@ export default function RootLayout({
             gtag('js', new Date());
 
             gtag('config', 'G-SLF4NJC4QP');
+            gtag('config', 'G-1J01NR3FBD');
           `}
         </Script>
         <Toaster />
